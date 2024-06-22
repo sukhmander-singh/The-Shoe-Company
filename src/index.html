@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Shoe Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+</head>
+<body class="bg-black text-white">
+
+    <header class="z-50 flex items-center px-6 sm:px-12 max-w-[1440px] justify-between fixed w-full left-[50%] -translate-x-[50%]">
+        <a class="z-50 w-20 md:w-[100px]" href="#">
+            <img src="./Images/logo .png" alt="logo">
+        </a>
+        <nav class="hidden md:block space-x-8 lg:space-x-16"> 
+            <a class="font-bold" href="#">Home</a>
+            <a class="font-bold" href="#how-it-works">How It Works?</a>
+            <a class="font-bold" href="#about">About</a>
+            <a class="font-bold" href="#testimonials">Testimonials</a>
+            <a class="font-bold" href="#contact">Contact Us</a>
+        </nav>
+        <div id="menu-btn" class="text-2xl md:hidden cursor-pointer z-40"><i class="fa-solid fa-bars cursor-pointer z-50"></i></div>
+        <div id="menu-bar" class="absolute right-0 top-0 w-2/3 flex flex-col space-y-4 py-12 px-8 bg-gray-500 bg-opacity-50 hidden">
+            <a class="font-bold" href="#">Home</a>
+            <a class="font-bold" href="#how-it-works">How It Works?</a>
+            <a class="font-bold" href="#about">About</a>
+            <a class="font-bold" href="#testimonials">Testimonials</a>
+            <a class="font-bold" href="#contact">Contact Us</a> 
+        </div>
+    </header>
+
+    <section id="hero" class="bg-cover bg-no-repeat max-w-[1150px] mx-auto items-center pt-28 pb-10 px-10 flex flex-col sm:flex-row sm:justify-evenly md:bg-contain md:bg-right">
+        <h1 class="leading-10 text-3xl font-bold self-start md:pt-20 md:text-4xl md:leading-normal">THE <br> SHOE <br> COMPANY</h1>
+        <img class="w-[400px]" src="./Images/hero-img .png" alt="">
+    </section>
+
+    <section id="how-it-works" class="max-w-[1150px] mx-auto px-4 pt-20 sm:pt-28">
+        <h2 class="text-center font-bold text-2xl w-[95%] max-w-[500px] mx-auto pb-14">Have they finally made the perfect workout shoe?</h2>
+        <img class="w-[95%] max-w-[400px] mx-auto md:hidden" src="./Images/how it works mobile.png" alt="">
+        <img class="w-[95%] max-w-[800px] mx-auto hidden md:block" src="./Images/how it works desktop .png" alt="">
+    </section>
+
+    <section id="about" class="max-w-[1150px] mx-auto py-20 sm:py-28 flex flex-col px-14 items-center sm:flex-row justify-between">
+        <h2 class="text-center font-bold text-3xl w-[95%] mx-auto pb-14 sm:hidden">About Us</h2>
+        <img class="w-full pb-14 sm:w-[60%] md:w-[40%]" src="./Images/about .png" alt="">
+        <div class="w-full flex flex-col items-center sm:w-[35%] sm:self-start md:w-[55%]">
+            <h2 class="hidden text-center font-bold text-3xl sm:block mx-auto pb-14">About Us!</h2>
+            <p class="text-sm sm:text-xs">
+                For each one of those shoe sweethearts out there, THE SHOE COMPANY offer 
+                the one-stop goal to pick the correct match of footwear. <br><br>Gone are 
+                the days when you needed to go from store to store to locate the correct 
+                style and size for yourself. <br><br>At THE SHOE COMPANY,  you can locate 
+                a vast accumulation of dashing footwear in all sizes and styles, all inside 
+                a couple of snaps. <br><br>Simple right? Not just we are here to spare your time, 
+                we are putting forth you the most dazzling footwear alternatives from all the 
+                first-rate brands like DAVINCHI, PRINCESS, and SIGNATURE. At "Organization Name", 
+                we offer men, ladies, and child's shoes perfect for any and each event.
+            </p>
+        </div>
+    </section>
+
+    <section id="testimonials" class="max-w-[1150px] mx-auto py-20 bg-cover bg-no-repeat bg-center sm:py-28">
+        <h2 class="text-center font-bold text-2xl w-[90%] mx-auto pb-14 sm:w-[60%] md:w-1/2">What People are saying about THE SHOE COMPANY ?</h2>
+        <div class="flex flex-row flex-wrap items-start justify-center w-full">
+            <div class="flex flex-col justify-center items-center max-w-[300px] p-4">
+                <img class="rounded-full w-[60%]" src="./Images/testmonial 1 .png" alt="">
+                <p class="text-center pt-4 w-[90%]">“Looking for shoes that are built just for you? THE SHOE COMPANY is the way to go. Love the design and build quality.”</p>
+            </div>
+            <div class="flex flex-col justify-center items-center max-w-[300px] p-4">
+                <img class="rounded-full w-[60%]" src="./Images/testmonial 2 .png" alt="">
+                <p class="text-center pt-4 w-[90%]">“I love the shoes, the quality, and everyting. They are worth the investment!”</p>
+            </div>
+            <div class="flex flex-col justify-center items-center max-w-[300px] p-4">
+                <img class="rounded-full w-[60%]" src="./Images/testmonial 3 .png" alt="">
+                <p class="text-center pt-4 w-[90%]">“They make the best and forever lasting shoes. Superb fit and confort is literally the next level. Much recommended!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="max-w-[1150px] mx-auto py-14 sm:py-28 flex flex-col justify-between items-center sm:flex-row sm:justify-evenly">
+        <div class="w-[90%] flex flex-col justify-center items-center sm:w-[50%]">
+            <h2 class="font-bold text-3xl w-full text-center">Contact Us</h2>
+            <p class="text-sm pt-14 text-center">
+                THE SHOE COMPANY,<br>
+                Dallas, Texas, USA <br>
+                +1 5590 1120 9910
+            </p>
+            <div class="flex space-x-4 pt-10 pb-14">
+                <i class="text-2xl cursor-pointer fa-brands fa-square-facebook"></i>
+                <i class="text-2xl cursor-pointer fa-brands fa-square-instagram"></i>
+                <i class="text-2xl cursor-pointer fa-brands fa-square-x-twitter"></i>
+                <i class="text-2xl cursor-pointer fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+        <div class="flex justify-center items-center px-7 sm:w-[50%]">
+            <img class="max-w-[350px] w-full" src="./Images/google-map .png" alt="">
+        </div>
+    </section>
+
+    <footer class="flex w-full justify-center items-center pb-5 text-xs md:text-base">
+        Made with <i class="px-2 fa-solid fa-heart"></i>
+        by Sukhmander singh
+    </footer>
+</body>
+</html>
